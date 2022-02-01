@@ -1,20 +1,43 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
+  background-color: antiquewhite;
 }
 
-img{
-    width: 200px;
+img {
+  padding: 25px;
+  width: 300px;
 }
 
-.posters{
-    width: 400px;
-    padding: 30px;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-#footer{
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: large;
+.btn :hover {
+  color: white;
+}
+
+.posters {
+  width: 400px;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+#footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+#footer a {
+  color: burlywood;
+  /* border: 2px solid black; */
+  margin-left: 25px;
+}
+
+#footer a:hover {
+  color: rgb(199, 157, 103);
 }
