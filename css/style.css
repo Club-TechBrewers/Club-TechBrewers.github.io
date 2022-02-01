@@ -5,3 +5,16 @@ body{
 img{
     width: 200px;
 }
+
+.posters{
+    width: 400px;
+    padding: 30px;
+}
+
+#footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+}
