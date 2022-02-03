@@ -1,43 +1,13 @@
-body {
-  text-align: center;
-  background-color: antiquewhite;
+body{
+    font-family: "Montserrat";
+    font-weight: 400;
+    /* background-color: aqua; */
 }
 
-img {
-  padding: 25px;
-  width: 300px;
+.container-fluid{
+    padding: 2% 15%;
 }
 
 a {
-  text-decoration: none;
-  color: black;
-}
-
-.btn :hover {
-  color: white;
-}
-
-.posters {
-  width: 400px;
-  padding: 30px;
-  margin-top: 40px;
-}
-
-#footer {
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: large;
-  margin-bottom: 10px;
-}
-
-#footer a {
-  color: burlywood;
-  /* border: 2px solid black; */
-  margin-left: 25px;
-}
-
-#footer a:hover {
-  color: rgb(199, 157, 103);
+    color: brown;
 }
