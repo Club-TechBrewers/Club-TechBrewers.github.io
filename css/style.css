@@ -1,13 +1,32 @@
 body{
     font-family: "Montserrat";
     font-weight: 400;
-    /* background-color: aqua; */
+    background-color: #eae0d5;
+    /* background-color: #22333b; */
+    /* background-color: #0a0908; */
+    /* background-color: #c6ac8f; */
+    /* background-color: #5e503f; */
 }
 
 .container-fluid{
-    padding: 2% 15%;
+    padding: 0% 5%;
 }
 
-a {
-    color: brown;
+.navbar-brand{
+    color: #CC8560;
+    font-size: 2rem;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.navbar-brand :hover{
+    color: black;
+}
+
+.nav-link{
+    color: #c6ac8f;
+}
+
+.nav-link :hover{
+    color: #CC8560;
 }
