@@ -8,25 +8,26 @@ body{
     /* background-color: #5e503f; */
 }
 
-.container-fluid{
+#title .container-fluid{
     padding: 0% 5%;
 }
 
-.navbar-brand{
-    color: #CC8560;
+#title .navbar-brand{
+    color: #af6c49;
     font-size: 2rem;
     font-family: "Roboto";
     font-weight: 700;
 }
 
-.navbar-brand :hover{
-    color: black;
+#title .navbar-brand:hover{
+    color: #965532;
 }
 
-.nav-link{
-    color: #c6ac8f;
+#title .nav-link{
+    color: #af6c49;
 }
 
-.nav-link :hover{
-    color: #CC8560;
+#title .nav-link:hover{
+    color: #965532;
 }
+
