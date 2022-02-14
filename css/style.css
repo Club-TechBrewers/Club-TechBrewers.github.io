@@ -1,11 +1,26 @@
-body{
-    font-family: "Montserrat";
-    font-weight: 400;
-    background-color: #eae0d5;
+body, h1, h2, h3, h4, h5, h6, p, blockquote, hr, ol, ul, figure{
+    padding: 0;
+    margin: 0; 
+    /* background-color: #eae0d5; */
     /* background-color: #22333b; */
     /* background-color: #0a0908; */
     /* background-color: #c6ac8f; */
     /* background-color: #5e503f; */
+
+    background-color: #ffcdb2;
+    /* background-color: #ffb4a2;
+    background-color: #e5989b;
+    background-color: #b5838d;
+    background-color: #6d6875; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat";
+    font-weight: 400;
 }
 
 #title .container-fluid{
@@ -13,10 +28,14 @@ body{
 }
 
 #title .navbar-brand{
-    color: #af6c49;
+    color: #22333b;
     font-size: 2rem;
     font-family: "Roboto";
     font-weight: 700;
+    padding: 0px 7px;
+    border: 2px solid black;
+    
+    border-radius:10px;
 }
 
 #title .navbar-brand:hover{
