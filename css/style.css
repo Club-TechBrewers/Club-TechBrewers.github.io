@@ -1,53 +1,92 @@
-body, h1, h2, h3, h4, h5, h6, p, blockquote, hr, ol, ul, figure{
-    padding: 0;
-    margin: 0; 
-    /* background-color: #eae0d5; */
-    /* background-color: #22333b; */
-    /* background-color: #0a0908; */
-    /* background-color: #c6ac8f; */
-    /* background-color: #5e503f; */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+hr,
+ol,
+ul,
+figure {
+  padding: 0;
+  margin: 0;
+  /* background-color: #eae0d5; */
+  /* background-color: #22333b; */
+  /* background-color: #0a0908; */
+  /* background-color: #c6ac8f; */
+  /* background-color: #5e503f; */
 
-    background-color: #ffcdb2;
-    /* background-color: #ffb4a2;
+  /* background-color: #ffcdb2; */
+  /* background-color: #ffb4a2;
     background-color: #e5989b;
     background-color: #b5838d;
     background-color: #6d6875; */
+  background-color: #fff;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: "Montserrat";
-    font-weight: 400;
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
 }
 
-#title .container-fluid{
-    padding: 0% 5%;
+#title .container-fluid {
+  padding: 0% 5%;
 }
 
-#title .navbar-brand{
-    color: #22333b;
-    font-size: 2rem;
+#title .navbar-brand {
+    font-weight: 500;
+    font-size: 1.5rem;
+  /* color: #22333b; */
+  /* font-size: 2rem;
     font-family: "Roboto";
-    font-weight: 700;
-    padding: 0px 7px;
-    border: 2px solid black;
-    
-    border-radius:10px;
+    font-weight: 700;*/
+    padding: 1% 2%;margin: 1%;
+    /* border: 2px solid; */
+  background-image: linear-gradient(#ff8c37, #ec3750);
+  border-radius: 30px;
+  display: inline-block;
+  /* padding: 0.5em;
+  margin: 0.5em; */
+
+  text-decoration: none;
+  background-image: linear-gradient(yellow, yellow),
+    linear-gradient(#ff8c37, #ec3750);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all 0.2s ease-out;
 }
 
-#title .navbar-brand:hover{
-    color: #965532;
+#title .navbar-brand:hover {
+  background-size: 100% 5px, auto;
 }
 
-#title .nav-link{
-    color: #af6c49;
+#title .nav-link {
+  color: #ec3750;
+  font-size: 1.5rem;
+  /* padding: 0% 30%; */
 }
 
-#title .nav-link:hover{
-    color: #965532;
+#title .nav-link:hover {
+  color: #b12b3c;
 }
 
-/* Hello there */
+.transparent {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 115px;
+  text-align: center;
+  margin-top: 102px;
+  /* background-image: linear-gradient(rgb(0, 255, 255), rgb(183, 0, 255)); */
+  background-image: linear-gradient(#ff8c37, #ec3750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
