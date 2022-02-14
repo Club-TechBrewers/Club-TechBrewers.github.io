@@ -1,3 +1,5 @@
+/* Default CSS  */
+
 body,
 h1,
 h2,
@@ -19,8 +21,8 @@ figure {
   /* background-color: #c6ac8f; */
   /* background-color: #5e503f; */
 
-  /* background-color: #ffcdb2; */
-  /* background-color: #ffb4a2;
+/*  background-color: #ffcdb2;
+    background-color: #ffb4a2;
     background-color: #e5989b;
     background-color: #b5838d;
     background-color: #6d6875; */
@@ -36,25 +38,24 @@ body {
   background-color: #fff;
 }
 
+/* Navbar */
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 #title .container-fluid {
   padding: 0% 0%;
 }
 
 #title .navbar-brand {
-    font-weight: 500;
-    font-size: 1.5rem;
-  /* color: #22333b; */
-  /* font-size: 2rem;
-    font-family: "Roboto";
-    font-weight: 700;*/
-    padding: 1% 2%;margin: 1%;
-    /* border: 2px solid; */
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 1% 2%;
+  margin: 1%;
   background-image: linear-gradient(#ff8c37, #ec3750);
   border-radius: 30px;
   display: inline-block;
-  /* padding: 0.5em;
-  margin: 0.5em; */
-
   text-decoration: none;
   background-image: linear-gradient(yellow, yellow),
     linear-gradient(#ff8c37, #ec3750);
@@ -71,7 +72,6 @@ body {
 #title .nav-link {
   color: #ec3750;
   font-size: 1.5rem;
-  /* padding: 0% 30%; */
   margin: 0px 15px;
 }
 
@@ -80,6 +80,8 @@ body {
   text-decoration: underline;
 }
 
+
+/* Welcome Page */
 .transparent {
   text-transform: uppercase;
   font-weight: bold;
@@ -87,20 +89,19 @@ body {
   font-size: 115px;
   text-align: center;
   margin-top: 0px;
-  /* background-image: linear-gradient(rgb(0, 255, 255), rgb(183, 0, 255)); */
   background-image: linear-gradient(#ff8c37, #ec3750);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#main{
-    font-family: "Sriracha";
-    font-size: 1.5rem;
-    padding: 5%;
-    text-align: center;
-    background-image: linear-gradient(rgb(248, 227, 169), rgb(230, 169, 77));
+#main {
+  font-family: "Sriracha";
+  font-size: 1.5rem;
+  padding: 5%;
+  text-align: center;
+  background-image: linear-gradient(rgb(248, 227, 169), rgb(230, 169, 77));
 }
 
 p span {
-    color: #ff8c37;
+  color: #ff8c37;
 }
