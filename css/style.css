@@ -24,7 +24,6 @@ figure {
     background-color: #e5989b;
     background-color: #b5838d;
     background-color: #6d6875; */
-  background-color: #fff;
 }
 
 html {
@@ -34,10 +33,11 @@ html {
 body {
   font-family: "Montserrat";
   font-weight: 400;
+  background-color: #fff;
 }
 
 #title .container-fluid {
-  padding: 0% 5%;
+  padding: 0% 0%;
 }
 
 #title .navbar-brand {
@@ -86,9 +86,21 @@ body {
   font-family: Impact, Charcoal, sans-serif;
   font-size: 115px;
   text-align: center;
-  margin-top: 102px;
+  margin-top: 0px;
   /* background-image: linear-gradient(rgb(0, 255, 255), rgb(183, 0, 255)); */
   background-image: linear-gradient(#ff8c37, #ec3750);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#main{
+    font-family: "Sriracha";
+    font-size: 1.5rem;
+    padding: 5%;
+    text-align: center;
+    background-image: linear-gradient(rgb(248, 227, 169), rgb(230, 169, 77));
+}
+
+p span {
+    color: #ff8c37;
 }
