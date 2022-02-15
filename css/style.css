@@ -123,7 +123,7 @@ p span {
   /* font-family: 'Poppins', Charcoal, sans-serif; */
   font-size: 3.9rem;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 7rem;
   /* background-image: linear-gradient(#ff8c37, #ec3750); */
   background: white;
   -webkit-background-clip: text;
@@ -146,6 +146,7 @@ p span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   margin-bottom: 1.2rem;
+  
 
 }
  #main #club-name{
