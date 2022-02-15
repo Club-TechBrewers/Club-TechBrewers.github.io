@@ -61,7 +61,7 @@ body {
   display: inline-block;
   text-decoration: none;
   background-image: linear-gradient(yellow, yellow),
-    linear-gradient(#ff8c37, #ec3750);
+  linear-gradient(#ff8c37, #ec3750);
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -87,8 +87,8 @@ body {
 .transparent {
   text-transform: uppercase;
   font-weight: bold;
-  /* font-family: Impact, Charcoal, sans-serif; */
-  font-family: 'Ubuntu', Charcoal, sans-serif;
+  font-family: Impact, Charcoal, sans-serif;
+  /* font-family: 'Poppins', Charcoal, sans-serif; */
   font-size: 115px;
   text-align: center;
   margin-top: 0px;
@@ -98,7 +98,7 @@ body {
 }
 
 #main {
-  font-family: "Sriracha";
+  font-family: "Poppins";
   font-size: 1.5rem;
   padding: 5%;
   text-align: center;
@@ -109,17 +109,38 @@ p span {
   color: #ff8c37;
 }
 
-#welcome-text{
+#main h3{
   font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Impact, Charcoal, sans-serif;
+  /* font-family: 'Poppins', Charcoal, sans-serif; */
+  font-size: 3.9rem;
+  text-align: center;
+  margin-top: 0px;
+  /* background-image: linear-gradient(#ff8c37, #ec3750); */
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 
-#welcome-text .transparent span{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-image:
-    linear-gradient(#ff8c37, #ebc0c6);
-  
-}
+#main h1{
+  /* font-size: 3.5em; */
+  font-weight: 900;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Impact, Charcoal, sans-serif;
+  /* font-family: 'Poppins', Charcoal, sans-serif; */
+  font-size: 3.9rem;
+  text-align: center;
+  margin-top: 0px;
+  background-image: linear-gradient(#ff8c37, #ec3750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 
-#main #club-name{
+}
+ #main #club-name{
   background-color: black;
+  /* background-image: linear-gradient(#ff8c37, #ec3750); */
 }
