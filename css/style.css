@@ -14,7 +14,7 @@ ol,
 ul,
 figure {
   padding: 0;
-  margin: 0;
+  margin: 0; 
   /* background-color: #eae0d5; */
   /* background-color: #22333b; */
   /* background-color: #0a0908; */
@@ -35,7 +35,10 @@ html {
 body {
   font-family: "Montserrat";
   font-weight: 400;
-  background-color: #fff;
+  /* background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
 }
 
 /* Navbar */
@@ -80,12 +83,12 @@ body {
   text-decoration: underline;
 }
 
-
 /* Welcome Page */
 .transparent {
   text-transform: uppercase;
   font-weight: bold;
-  font-family: Impact, Charcoal, sans-serif;
+  /* font-family: Impact, Charcoal, sans-serif; */
+  font-family: 'Ubuntu', Charcoal, sans-serif;
   font-size: 115px;
   text-align: center;
   margin-top: 0px;
@@ -104,4 +107,19 @@ body {
 
 p span {
   color: #ff8c37;
+}
+
+#welcome-text{
+  font-size: 2.5rem;
+}
+
+#welcome-text .transparent span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image:
+    linear-gradient(#ff8c37, #ebc0c6);
+  
+}
+
+#main #club-name{
+  background-color: black;
 }
