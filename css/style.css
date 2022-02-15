@@ -1,4 +1,4 @@
-/* Default CSS  */
+/* ---------- Default CSS ---------- */
 
 body,
 h1,
@@ -14,14 +14,14 @@ ol,
 ul,
 figure {
   padding: 0;
-  margin: 0; 
+  margin: 0;
   /* background-color: #eae0d5; */
   /* background-color: #22333b; */
   /* background-color: #0a0908; */
   /* background-color: #c6ac8f; */
   /* background-color: #5e503f; */
 
-/*  background-color: #ffcdb2;
+  /*  background-color: #ffcdb2;
     background-color: #ffb4a2;
     background-color: #e5989b;
     background-color: #b5838d;
@@ -33,15 +33,14 @@ html {
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Poppins";
   font-weight: 400;
-  /* background-color: #fff; */
   margin: 0;
   padding: 0;
-  height: 100vh; 
+  height: 100vh;
 }
 
-/* Navbar */
+/* ---------- Navbar ---------- */
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
@@ -79,11 +78,13 @@ body {
 }
 
 #title .nav-link:hover {
-  color: #b12b3c;
+  /* color: #b12b3c; */
+  color: #fff;
   text-decoration: underline;
+  transition: all 0.5s ease-in-out;
 }
 
-/* Welcome Page */
+/* ---------- Welcome Page ----------*/
 .transparent {
   text-transform: uppercase;
   font-weight: bold;
@@ -104,8 +105,8 @@ body {
   text-align: center;
   /* background-image: linear-gradient(rgb(248, 227, 169), rgb(230, 169, 77)); */
 }
-#main p{
-  padding: 0 27%;
+#main p {
+  padding: 3% 15%;
   color: white;
 }
 
@@ -113,7 +114,7 @@ p span {
   color: #ff8c37;
 }
 
-#main h3{
+#main h3 {
   letter-spacing: 0.2rem;
   font-size: 2.5rem;
   font-weight: 900;
@@ -127,40 +128,70 @@ p span {
   /* background-image: linear-gradient(#ff8c37, #ec3750); */
   background: white;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
 }
 
-#main h1{
+#main h3:hover{
+  transform: scale(0.9, 0.9);
+  transition: all 1.2s ease-in-out;
+}
+
+#main h1 {
   /* font-size: 3.5em; */
   letter-spacing: 0.1rem;
   font-weight: 900;
   text-transform: uppercase;
   font-weight: bold;
   font-family: Impact, Charcoal, sans-serif;
-  /* font-family: 'Poppins', Charcoal, sans-serif; */
   font-size: 5.5rem;
   text-align: center;
   margin-top: 0px;
   background-image: linear-gradient(#ff8c37, #ec3750);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   margin-bottom: 1.2rem;
-  
-
-}
- #main #club-name{
-  background-color: black;
-  /* background-image: linear-gradient(#ff8c37, #ec3750); */
 }
 
-#video1{
-    z-index: -1;
-    zoom: 40%;
-    opacity: 0.93;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 50%;
-    min-height: 50%;
+#main h1:hover{
+  transform: scale(0.9, 0.9);
+  transition: all 1.2s ease-in-out;
+}
+
+#main #club-name {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ff8c37;
+}
+
+#main #club-name:hover{
+  color: #ec3750;
+  text-decoration-style: wavy;
+  text-decoration-color: #ec3750;
+  transition: all 1.2s ease-in-out;
+}
+
+#video1 {
+  z-index: -1;
+  zoom: 40%;
+  opacity: 0.93;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#main a {
+  /* background-color: #ff8c37; */
+  color: white;
+  padding: 0.5% 1.5%;
+  border-radius: 25px;
+  text-decoration: none;
+  background-image: linear-gradient(#ff8c37, #ec3750);
+}
+
+#main a:hover {
+  color: black;
+  transition: all 1.2s ease-in-out;
 }
