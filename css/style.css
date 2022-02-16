@@ -67,13 +67,6 @@ body {
   transition: all 0.2s ease-out;
 }
 
-#title .navbar-brand:hover {
-  /* animation: all 2s ease-in-out; */
-  /* background-size: 100% 5px, auto; */
-  /* background-image: linear-gradient(#ec3750, #ff8c37); */
-  border-radius: 30px;
-}
-
 .navbar-dark .navbar-brand{
   color: #fff;
 }
