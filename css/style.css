@@ -67,13 +67,11 @@ body {
   transition: all 0.2s ease-out;
 }
 
-<<<<<<< HEAD
 #title .navbar-brand:hover {
   /* background-size: 100% 5px, auto; */
 }
 
-=======
->>>>>>> 6ae0e381250933073fb0f909181bf3512108e433
+
 .navbar-dark .navbar-brand{
   color: #fff;
 }
