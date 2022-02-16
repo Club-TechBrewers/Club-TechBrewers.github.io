@@ -28,6 +28,7 @@ figure {
     background-color: #6d6875; */
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -44,6 +45,12 @@ body {
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.container img{
+  width: 15%;
+  margin-top: 1rem;
+  border-radius: 1rem;
 }
 
 #title .container-fluid {
@@ -222,4 +229,20 @@ p span {
   margin-top: 2.5rem;
   padding: 0rem 6rem;
   margin-bottom: 2rem;
+}
+
+#accordion1{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  color: #ec3750;
+}
+
+#workshop{
+  text-align: center;
+  margin-top: 5rem;
+  background-image:linear-gradient(#5bc0de,#338eda);
+  border-radius: 2rem;
+}
+#blearn{
+  color: #ff8c37;
 }
