@@ -55,8 +55,8 @@ body {
   font-size: 1.5rem;
   padding: 1% 2%;
   margin: 1%;
-  background-image: linear-gradient(#ff8c37, #ec3750);
-  border-radius: 30px;
+  background-image: linear-gradient(#ff8c37 #ec3750);
+  border-radius: 2rem;
   display: inline-block;
   text-decoration: none;
   background-image: linear-gradient(#ff8c37, #ec3750),
@@ -68,7 +68,7 @@ body {
 }
 
 #title .navbar-brand:hover {
-  background-size: 100% 5px, auto;
+  /* background-size: 100% 5px, auto; */
 }
 
 .navbar-dark .navbar-brand{
@@ -144,7 +144,7 @@ p span {
 
 #main h3:hover{
   transform: scale(0.9, 0.9);
-  transition: all 0.3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #main h1 {
@@ -156,7 +156,7 @@ p span {
   font-family: Impact, Charcoal, sans-serif;
   font-size: 5.5rem;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
   background-image: linear-gradient(#ff8c37, #ec3750);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -185,11 +185,12 @@ p span {
   z-index: -1;
   zoom: 40%;
   opacity: 0.93;
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
+  /* top: 30; */
   min-width: 100%;
-  min-height: 100%;
+  min-height: 40%;
 }
 
 #main a {
@@ -204,4 +205,26 @@ p span {
 #main a:hover {
   color: black;
   transition: all 1.2s ease-in-out;
+}
+
+#intro{
+  margin-top: 7rem;
+  text-align: center;
+
+}
+.hctb #introhctb{
+  font-weight: 900;
+  background-image:linear-gradient(#33d6a6, #5bc0de);
+  border-radius: 2rem;
+  padding: 0 1rem;
+}
+.hctb h2{
+  margin-top: 10rem;
+}
+.hctb h4{
+  margin-top: 2.5rem;
+  padding: 0rem 6rem;
+}
+#accordionExample{
+  
 }
