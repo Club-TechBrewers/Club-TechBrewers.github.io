@@ -231,10 +231,53 @@ p span {
   margin-bottom: 2rem;
 }
 
+#whyhctb h2{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  
+}
+
+#whyhctb{
+  text-align: center;
+}
+
+#whyhctb #why{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #a633d6;
+}
+
 #accordion1{
-  margin-left: 10rem;
-  margin-right: 10rem;
-  color: #ec3750;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  /* color: #ec3750; */
+  color: #a633d6;
+  /* color: #ff8c37; */
+}
+
+.accordion-item{
+  border: 2px solid #a633d6;
+}
+
+
+#blearn{
+  color: #ff8c37;
+}
+
+#whyhctb a {
+  /* background-color: #ff8c37; */
+  color: white;
+  padding: 0.5% 1.5%;
+  border-radius: 25px;
+  text-decoration: none;
+  background-image: linear-gradient(#ff8c37, #ec3750);
+  margin-top: 5% 0%;
+}
+
+#whyhctb a:hover {
+  color: black;
+  transition: all 1.2s ease-in-out;
 }
 
 #workshop{
@@ -242,7 +285,22 @@ p span {
   margin-top: 5rem;
   background-image:linear-gradient(#5bc0de,#338eda);
   border-radius: 2rem;
+  width: 35%;
 }
-#blearn{
-  color: #ff8c37;
+
+/* Sponsors and Partners */
+
+#sponsors{
+  text-align: center;
+}
+
+#sponsors h2{
+  /* border: 2px solid red; */
+  background-image:linear-gradient(#5bc0de,#338eda);
+  padding: 0.5% 2%;
+  border-radius: 25px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0%;
 }
