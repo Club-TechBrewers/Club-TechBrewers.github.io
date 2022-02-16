@@ -59,7 +59,7 @@ body {
   border-radius: 30px;
   display: inline-block;
   text-decoration: none;
-  background-image: linear-gradient(yellow, yellow),
+  background-image: linear-gradient(#ff8c37, #ec3750),
   linear-gradient(#ff8c37, #ec3750);
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
@@ -144,7 +144,7 @@ p span {
 
 #main h3:hover{
   transform: scale(0.9, 0.9);
-  transition: all 1.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #main h1 {
@@ -165,7 +165,7 @@ p span {
 
 #main h1:hover{
   transform: scale(0.9, 0.9);
-  transition: all 1.2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #main #club-name {
@@ -178,7 +178,7 @@ p span {
   color: #ec3750;
   text-decoration-style: wavy;
   text-decoration-color: #ec3750;
-  transition: all 1.2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #video1 {
