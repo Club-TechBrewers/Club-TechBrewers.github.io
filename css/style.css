@@ -15,17 +15,6 @@ ul,
 figure {
   padding: 0;
   margin: 0;
-  /* background-color: #eae0d5; */
-  /* background-color: #22333b; */
-  /* background-color: #0a0908; */
-  /* background-color: #c6ac8f; */
-  /* background-color: #5e503f; */
-
-  /*  background-color: #ffcdb2;
-    background-color: #ffb4a2;
-    background-color: #e5989b;
-    background-color: #b5838d;
-    background-color: #6d6875; */
 }
 
 
@@ -242,11 +231,11 @@ p span {
   text-align: center;
 }
 
-#whyhctb #why{
+/* #whyhctb #why{
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #a633d6;
-}
+} */
 
 #accordion1{
   margin-left: 20rem;
@@ -303,4 +292,13 @@ p span {
   align-items: center;
   justify-content: center;
   margin: 5% 0%;
+}
+
+.sponsor img{
+  width: 10%;
+  margin: 3% 5%;
+}
+
+.sponsor #lumos{
+  width: 30%;
 }
