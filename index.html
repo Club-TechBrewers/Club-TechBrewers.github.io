@@ -1,35 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta  -->
+
+    <!-- CSS and Fonts-->
+    <script src="https://kit.fontawesome.com/e281c28c6b.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700&family=Montserrat:wght@100;400;900&family=Outfit:wght@300;400;600&family=Poppins:wght@300;500;600&family=Roboto&family=Sriracha&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Hack Club TechBrewers</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
 
-<body>
-    <img src="logo/rect_logo.png">
-    <h1>Welcome to Hack Club TechBrewers</h1>
+    <!-- Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <button type="button" class="btn btn-outline-dark"><a href="https://bit.ly/TechBrewers" target="__blank">Apply Now</a></button>
+  <body>
 
-    <br>
+    <!-- Nav Bar -->
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <!-- <a class="navbar-brand" href="#">Hack Club TechBrewers</a> -->
+            <img src="logo/rect_logo.png" alt="">
+            <a><img style="position: absolute; top: 100px; left: 0px; border: 0; width: 256px; z-index: 999;" src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Hack Club"/></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <!-- <a class="nav-link" href="about.html" target="__blank">About</a> -->
+                  <a class="nav-link" href="#intro">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="workshop.html" target="__blank">Workshops</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonials.html" target="__blank">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html" target="__blank">Team</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
 
-    <img class="posters" src="https://github.com/Hack-Club-TechBrewers/Hack-Club-TechBrewers.github.io/blob/main/events/Portfolio%20Website%20Workshop.jpg?raw=true">
+    <!-- Welcome Page -->
 
-    <img class="posters" src="https://github.com/Hack-Club-TechBrewers/Hack-Club-TechBrewers.github.io/blob/main/events/Introduction%20and%20Fundamentals%20of%20Cybersecurity.png?raw=true">
+    <div id="main">
+      <h3>Welcome to</h3>
+      <h1>Hack Club TechBrewers.</h1>
+      <p>
+        <span id="club-name">Hack Club TechBrewers</span> was founded with aim of building an
+        all inclusive club which empowers students to learn, connect and build
+        together.
+      </p>
 
-    <img class="posters" src="https://github.com/Hack-Club-TechBrewers/Hack-Club-TechBrewers.github.io/blob/main/events/Spark%20AR%20SKNISB%20x%20TechBrewers.JPG?raw=true">
+      <a href="https://forms.gle/HUcdiAWqSmz2TzPr9" target="__blank">Apply Now 🚀</a>
 
-     <div id="footer">
-        <a href="https://www.linkedin.com/company/hack-club-techbrewers/" target="__blank">LinkedIn</a>
-        <a href="https://twitter.com/ClubTechBrewers" target="__blank">Twitter</a>
-        <a href="https://www.instagram.com/hackclub_techbrewers/" target="__blank">Instagram</a>
-        <a href="https://discord.gg/kp9BzxUmqq" target="__blank">Discord</a>
-        </div>         
-     </footer>
-    
-</body>
+    </div>
+
+    <div id="video1">
+      <video autoplay muted loop
+      ><source src="videos/HCTB video1.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+  <!-- Introduction -->
+  <section id="intro">
+  <div class="hctb">
+    <h2>
+          What is <span id="introhctb"> Hack Club TechBrewers</span>?  
+    </h2>
+    <h4>
+          Hack Club TechBrewers is an inclusive community which helps students from all over the world to get started with their journey in technology, irrespective of their branches, colleges, etc. We conduct sessions/ workshops on a wide variety of topics like Web Developement, AR/ VR, Personal Branding, Cyber Security and many more.
+    </h4>
+  </div>
+</section>
+
+  <!-- Why HCTB -->
+  <section id="whyhctb">
+<h2>Why <span id="why"><strong>Hack Club TechBrewers</strong></span>? 🎉</h2>
+
+  <div id="accordion1">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button style="font-size: 1.5rem;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            LEARN
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Learn about the trending topics from scratch with other community members, and that too free of cost. Learn new skills from other domains, ennhance your existing skills and gain plenty of technical knowledge under one roof.</strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button style="font-size: 1.5rem;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            CONNECT
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Connect with other like-minded folks, get a strong support from mentors, seniors and specialists from every specific domain with similar area of interest and collaborate with them on different projects.</strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button style="font-size: 1.5rem;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            BUILD
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Try to build and implement projects with your knowledge, ideas and skills with others in an interactive way.</strong> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+  
+  <section id="sponsors">
+    <h2>Sponsors and Partners</h2>
+    <div class="sponsor">
+    <img src="Sponsors/GiveMyCertificate.png" alt="GiveMyCertificate">
+    <img src="Sponsors/Hack Club.png" alt="hackclub">
+    <img id="lumos" src="Sponsors/LumosLabs.png" alt="LumosLabs">
+  </div>
+  </section>
+  
+  
+<!-- Footer  -->
+
+
+    <footer>
+      <!-- <a href="https://codepen.io/kkhenriquez/pen/RKENRN">https://codepen.io/kkhenriquez/pen/RKENRN</a> -->
+      <hr>
+      <section id="branding">Hack Club TechBrewers</section>
+      <section id="connect">Connect with us!
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-discord"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </section>
+    </footer>
+  </body>
 </html>
