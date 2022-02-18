@@ -303,3 +303,20 @@ p span {
 .sponsor #lumos{
   width: 30%;
 }
+
+footer{
+  display: flex;
+}
+
+#connect{
+  font-size: 1.5rem;
+  font-weight: 900;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+#branding{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
