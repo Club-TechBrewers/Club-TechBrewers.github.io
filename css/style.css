@@ -320,3 +320,13 @@ footer{
   font-size: 1.5rem;
   font-weight: 900;
 }
+
+#features{
+  align-items: center;
+  padding-top: 10%;
+  /* padding-left: 10%; */
+}
+
+#features li{
+  list-style: none;
+}
