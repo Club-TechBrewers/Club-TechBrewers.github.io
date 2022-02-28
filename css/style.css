@@ -282,6 +282,16 @@ p span {
 
 #sponsors{
   text-align: center;
+  /* align-items: center; */
+  margin: 5rem 5rem;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  
+}
+
+.sponsor{
+  background-color: #8492a6;
+  border-radius: 30px;
 }
 
 #sponsors h2{
@@ -293,6 +303,8 @@ p span {
   align-items: center;
   justify-content: center;
   margin: 5% 0%;
+  /* margin-top: 4rem; */
+
 }
 
 .sponsor img{
@@ -303,6 +315,11 @@ p span {
 .sponsor #lumos{
   width: 30%;
 }
+
+.sponsor #hackclub{
+  margin-left: 10rem;
+}
+
 
 footer{
   display: flex;
@@ -325,8 +342,62 @@ footer{
   align-items: center;
   padding-top: 10%;
   /* padding-left: 10%; */
+  margin-left: 20rem;
 }
 
 #features li{
   list-style: none;
+  align-items: center;
+  /* margin-left: 5rem; */
+}
+
+#features h3{
+  font-size:2.1rem;
+  font-weight: 900;
+}
+
+.fa-brands{
+  font-size: 30px;
+  padding: 7px;
+  color: black;
+}
+
+.feature-box h3{
+  margin: -8px;
+  /* margin-left: 20px; */
+  /* padding: -100px; */
+  margin-bottom: 10px;
+  margin-right: 20px;
+} 
+.fa-instagram{
+  margin-left: 0px;
+  /* background-image: linear-gradient();  */
+  
+
+}
+
+.fa-linkedin:hover{
+  color: #0072b1;
+}
+
+
+.fa-instagram:hover{
+  color: #405de6;
+}
+
+.fa-twitter:hover{
+  color: #1DA1F2;
+}
+
+.fa-youtube:hover{
+  color: #FF0000;
+}
+
+.feature-box a{
+    color: black;
+    text-decoration: none;
+}
+
+.feature-box a:hover{
+  color: #0072b1;
 }
