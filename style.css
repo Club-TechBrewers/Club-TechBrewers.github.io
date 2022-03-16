@@ -1,0 +1,19 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+::selection{
+    background: #33d6a6;
+}
+
+.btn-lg a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn-lg a:hover{
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
