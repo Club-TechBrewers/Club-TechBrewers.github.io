@@ -1,35 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" type="image/x-icon" href="images/Logos/TechBrewers_square.png"> -->
+    <link rel="icon" type="image/x-icon" href="images/Logos/rocket.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="img/TechBrewers_square.png">
+    <!-- Meta tags -->
+    <meta property="og:title" content="Hack Club TechBrewers" />
+    <meta
+      property="og:description"
+      content="The Official Website of Hack Club TechBrewers."
+    />
+    <meta property="og:image" content="images/square_logo.JPEG" />
+    <meta property="og:url" content="https://techbrewers.hackclub.com" />
+    <meta name="keywords" content="Hack Club, Hack Club TechBrewers" />
 
-  <!-- Meta tags -->
-  <meta property="og:title" content="Hack Club TechBrewers">
-  <meta property="og:description" content="The Official Website of Hack Club TechBrewers.">
-  <meta property="og:image" content="img/square_logo.JPEG">
-  <meta property="og:url" content="https://techbrewers.hackclub.com">
-  <meta name="keywords" content="Hack Club, Hack Club TechBrewers">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
+    <!-- ICONSCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
 
-  <title>Hack Club TechBrewers</title>
-</head>
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  
+    <title>Hack Club TechBrewers</title>
+  </head>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-</body>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"><h4>Hack Club TechBrewers</h4></a>
+        <!-- <a href="index.html"><img src="./images/Logos/TechBrewersLogo_black.png" alt=""></a> -->
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+<!-- ==========END OF NAVBAR========== -->
 
+<header>
+  <div class="container header__container">
+    <div class="header__left">
+      <h1>Hack Club TechBrewers</h1>
+      <p>Hack Club TechBrewers was founded with an aim of building an all inclusive community which empowers every individual to learn, connect and build together.
+        We are a community where people from different colleges, branches, domains, etc. come together and learn tech together in a fun way.</p>
+        <a href="#" class="btn btn-primary">Join now</a>
+    </div>
+
+    <div class="header__right">
+      <div class="header__right-image">
+        <img src="./images/header.svg" alt="">
+      </div>
+    </div>
+    
+  </div>
+</header>
+
+<!-- ============ END OF HEADER =============== -->
+
+
+  </body>
 </html>

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    /* #ff8e00; */
+    /* #ff7400;  */
+    /* #ffa700; */
+    --color-primary: #ff7400;
+    --color-success: #33d6a6;
+    --color-warning: #f1c40f;
+    --color-danger: #ec3750;
+    --color-danger-variant: rgba(247, 88, 66, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+    --color-bg: #e07f00;
+    --color-bg-1: #ff950a;
+    --color-bg-2: #FFA700;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--color-white);
+    background: var(--color-bg);
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    color: var(--color-white);
+}
+
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.btn{
+    display: inline-block;
+    background: var(--color-white);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.btn-primary{
+    background: var(--color-danger);
+    color: var(--color-white);
+}
+
+/* =========================== NAVBAR ==================== */
+nav{
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
+.nav__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav__menu a{
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.nav__menu a:hover{
+    color: var(--color-bg-2);
+}
+
+/* =========================== HEADER ==================== */
+
+
