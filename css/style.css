@@ -130,6 +130,10 @@ nav {
   align-items: center;
 }
 
+.nav__container img{
+  width: 15rem;
+}
+
 nav button {
   display: none;
 }
@@ -369,23 +373,23 @@ header {
   .container{
     width: var(--container-width-md);
   }
-
+  
   h1{
     font-size: 2.2rem;
   }
-
+  
   h2{
     font-size: 1.7rem;
   }
-
+  
   h3{
     font-size: 1.4rem;
   }
-
+  
   h4{
     font-size: 1.2rem;
   }
-
+  
   /* ============NAVBAR=============== */
   nav button{
     display: inline-block;
@@ -395,6 +399,10 @@ header {
     cursor: pointer;
   }
   
+  .nav__container img{
+    width: 12.5rem;
+  }
+
   nav button#close-menu-btn{
     display: none;
   }
@@ -417,7 +425,7 @@ header {
     transform-origin: top right;
     opacity: 0;
   }
-
+  
   .nav__menu li:nth-child(2){
     animation-delay: 200ms;
   }
@@ -453,10 +461,10 @@ header {
     color: var(--color-white);
     
   }
-
+  
   /* ============HEADER=============== */
   header{
-    height: 52vh;
+    height: 62vh; /* 52vh */
     margin-bottom: 4rem;
   }
   
@@ -465,8 +473,101 @@ header {
     padding-bottom: 3rem;
   }
   
+  /* ============categories=============== */
+  .categories{
+    height: auto;
+  }
   
-  /* ============container=============== */
+  .categories__container{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .categories__left{
+    margin-right: 0;
+  }
+  
+  /* ============faq=============== */
+  .faqs__container{
+    grid-template-columns: 1fr;  
+  }
+  
+  .faq{
+    padding: 1.5rem;
+  }
+  /* ============footer=============== */
+  .footer__container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
+/* ========MEDIA QUERIES (PHONES)=============== */
+
+@media screen and (max-width:600px){
+  .container{
+    width: var(--container-width-sm);
+  }
+
+  /* ============navbar=========== */
+  .nav__menu{
+    right: 3%;
+  }
   
+  .nav__container img{
+    width: 10rem;
+  }
+  /* ============header=========== */
+  header{
+    height: 100vh; /*100vh*/
+  }
+  
+  .header__container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .header__left p{
+    margin-bottom: 1.3rem;
+  }
+
+  /* ============categories=========== */
+  .categories__right{
+    grid-template-columns: 3fr;
+    /* gap: 0.7rem; */
+  }
+  
+  .category{
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .category h5{
+    text-align: center;
+  }
+  
+  .category p{
+    text-align: center;
+  }
+
+  /* ============testimonials=========== */
+  .testimonial__body{
+    /* padding: 1.2rem; */
+  }
+  
+  /* ============footer=========== */
+  .footer__container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer_1 p{
+    margin: 1rem auto;
+  }
+
+  .footer__socials{
+    justify-content: center;
+  }
+
 }
