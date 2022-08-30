@@ -179,7 +179,7 @@ header {
 
 .categories {
   background: var(--color-bg-1);
-  height: 32rem;
+  height: 38rem;
 }
 
 .categories h1 {
@@ -529,6 +529,10 @@ header {
 
   .header__left p{
     margin-bottom: 1.3rem;
+  }
+
+  .header__right-image{
+    width: 100%;
   }
 
   /* ============categories=========== */
