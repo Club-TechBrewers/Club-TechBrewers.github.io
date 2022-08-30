@@ -1,0 +1,43 @@
+.swags{
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.swag__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.swag img{
+    padding: 2rem;
+    text-align: center;
+}
+
+.swag a{
+    margin-bottom: 1.5rem;
+}
+
+h4{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .swag__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .swag__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 0 2rem;
+    }
+    
+}
