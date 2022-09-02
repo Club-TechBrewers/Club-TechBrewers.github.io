@@ -12,7 +12,25 @@
   /* #ff8e00; */
   /* #ff7400;  */
   /* #ffa700; */
-  --color-primary: #ff7400;
+
+  /* #FFBFBC */
+  /* #FFA98B */
+  /* #FF9855 */
+  /* #FF8E00  */
+
+  --color-primary: #ffd8a9;
+  --color-success: #33d6a6;
+  --color-warning: #f1c40f;
+  --color-danger: #ec3750;
+  --color-danger-variant: rgba(247, 88, 66, 0.4);
+  --color-white: #000;
+  --color-light: rgba(255, 255, 255, 0.7);
+  --color-black: #000;
+  --color-bg: #FDEEDC;
+  --color-bg-1: #FFD8A9;
+  --color-bg-2: #F1A661;
+
+  /* --color-primary: #ff7400;
   --color-success: #33d6a6;
   --color-warning: #f1c40f;
   --color-danger: #ec3750;
@@ -22,7 +40,7 @@
   --color-black: #000;
   --color-bg: #e07f00;
   --color-bg-1: #ff950a;
-  --color-bg-2: #ffa700;
+  --color-bg-2: #ffa700; */
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
