@@ -198,11 +198,18 @@ header {
 }
 
 .header__left h1 {
-  background: linear-gradient(
+  /* background: linear-gradient(
     140deg,
     #d2a8ff 12.09%,
     #f778ba 42.58%,
     #ff7b72 84.96%
+  ); */
+
+  background: linear-gradient(
+    140deg,
+    #fc4a1a 12.09%,
+    #ff8e00 42.58%,
+    #f7b733 84.96%
   );
 
   -webkit-background-clip: text;
@@ -325,8 +332,8 @@ header {
 }
 
 .avatar {
-  width: 6rem;
-  height: 6rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 1rem;
