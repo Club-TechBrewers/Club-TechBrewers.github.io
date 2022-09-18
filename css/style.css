@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  color: var(--color-bg-1);
+  background: var(--color-black);
+}
+
 :root {
   /* #ff8e00; */
   /* #ff7400;  */
@@ -176,7 +181,11 @@ nav button {
 }
 
 .nav__menu a:hover {
+  background-color: #000;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
   color: var(--color-bg-2);
+
 }
 
 /* =========================== HEADER ==================== */
@@ -224,7 +233,7 @@ header {
 
 .categories {
   background: var(--color-bg-1);
-  height: 38rem;
+  height: 50rem;
 }
 
 .categories h1 {
@@ -234,24 +243,35 @@ header {
 
 .categories__container {
   display: grid;
-  grid-template-columns: 40% 60%;
+  /* grid-template-columns: 40% 60%; */
 }
 
 .categories__left {
-  margin: 4rem;
+  /* margin: 4rem; */
+  margin: 0.5rem;
 }
 
-.categories__left p {
+/* .categories__left p {
   margin: 1rem 0 3rem;
-}
+} */
 
 .categories__right {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   gap: 1.2rem;
 }
 
+/* .category {
+  background: var(--color-bg-2);
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: var(--transition);
+} */
+
 .category {
+  text-align: center;
   background: var(--color-bg-2);
   padding: 2rem;
   border-radius: 2rem;
@@ -261,6 +281,8 @@ header {
 .category:hover {
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
   z-index: 1;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  background: #ffdcb2;
 }
 
 .category__icon {
@@ -269,13 +291,12 @@ header {
 }
 
 .category h5 {
-  /* margin: 2rem 0 1rem; */
-  margin: 2rem 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .category p {
   font-size: 1rem;
+
 }
 
 /* =========================== FAQs ==================== */
@@ -402,8 +423,14 @@ footer ul li a:hover {
 .footer__socials {
   display: flex;
   gap: 1rem;
-  font-size: 1.2rem;
-  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer__socials .uil:hover {
+  border-radius: 5px;
+  background: #000;
+  color: var(--color-bg-1);
 }
 
 .footer__copyright {
@@ -574,17 +601,21 @@ footer ul li a:hover {
   }
 
   .header__left p {
-    margin-bottom: 1.3rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .header__right-image {
-    width: 100%;
+    display: none;
+    /* width: 100%; */
   }
 
   /* ============categories=========== */
   .categories__right {
     grid-template-columns: 3fr;
-    /* gap: 0.7rem; */
+    gap: 2rem;
   }
 
   .category {
@@ -594,6 +625,7 @@ footer ul li a:hover {
 
   .category h5 {
     text-align: center;
+    padding-bottom: 2rem;
   }
 
   .category p {
