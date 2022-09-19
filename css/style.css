@@ -117,26 +117,21 @@ p {
 .btn {
   display: inline-block;
   background: var(--color-white);
-  color: var(--color-black);
+  background: linear-gradient(to right, brown 0%, #e1954e 51%, #fcbe85 100%);
+  color: #fff;
+  transition: 0.5s;
   padding: 1rem 2rem;
-  /* border: 1px solid transparent; */
   font-weight: 800;
-  transition: var(--transition);
-  font-size: 1rem;
+  font-size: 1.2rem;
+  border-radius: 5rem;
 }
 
 .btn:hover {
-  background: transparent;
-  color: var(--color-white);
-  border-color: var(--color-white);
+  background: linear-gradient(to left, brown 0%, #e1954e 0%, #fcbe85 100%);
+  border-color: var(--color-dark);
+  color: #000;
 }
 
-.btn-primary {
-  border-radius: 5rem;
-  /* background: var(--color-danger); */
-  background-image: linear-gradient(45deg, #f7b801, #f35b04);
-  color: var(--color-white);
-}
 
 /* =========================== NAVBAR ==================== */
 nav {
@@ -214,13 +209,7 @@ header {
     #ff7b72 84.96%
   ); */
 
-  background: linear-gradient(
-    140deg,
-    #fc4a1a 12.09%,
-    #ff8e00 42.58%,
-    #f7b733 84.96%
-  );
-
+  background: linear-gradient(to right, brown 0%, #e1954e 51%, #fcbe85 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -416,7 +405,11 @@ footer ul li {
   margin-bottom: 0.7rem;
 }
 
-footer ul li a:hover {
+footer li a{
+  font-size: 1.2rem;
+}
+
+footer li a:hover {
   text-decoration: underline;
 }
 

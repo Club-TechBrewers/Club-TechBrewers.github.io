@@ -11,13 +11,14 @@
 .event{
     background: var(--color-bg-1);
     text-align: center;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     transition: var(--transition);
+    border-radius: 15px;
 }
 
 .event:hover{
-    background: transparent;
-    border-color: var(--color-primary);
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  background: #ffdcb2;
 }
 
 .event__info{
