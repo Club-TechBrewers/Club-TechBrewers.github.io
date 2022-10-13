@@ -213,7 +213,6 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .header__left p {
   margin: 1rem 0 2.4rem;
 }
@@ -410,6 +409,9 @@ footer li a{
 }
 
 footer li a:hover {
+  text-decoration: underline;
+}
+.footer__3 p:hover{
   text-decoration: underline;
 }
 
@@ -626,9 +628,9 @@ footer li a:hover {
   }
 
   /* ============testimonials=========== */
-  .testimonial__body {
+  /* .testimonial__body { */
     /* padding: 1.2rem; */
-  }
+  /* } */
 
   /* ============footer=========== */
   .footer__container {
