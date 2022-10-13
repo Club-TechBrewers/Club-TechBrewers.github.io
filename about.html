@@ -73,7 +73,7 @@
               <span class="achievement__icon">
                 <i class="uil uil-users-alt"></i>
               </span>
-              <h3>260+</h3>
+              <h3 id="counter"></h3>
               <p>Members</p>
             </article>
 
@@ -81,7 +81,7 @@
               <span class="achievement__icon">
                 <i class="uil uil-building"></i>
               </span>
-              <h3>65+</h3>
+              <h3 id="counter2"></h3>
               <p>Colleges</p>
             </article>
 
@@ -89,7 +89,7 @@
               <span class="achievement__icon">
                 <i class="uil uil-map"></i>
               </span>
-              <h3>65+</h3>
+              <h3 id="counter3"></h3>
               <p>Cities</p>
             </article>
           </div>
@@ -267,7 +267,41 @@
       </div>
     </footer>
     <!-- ============ END OF FOOTER =============== -->
-
+    <script>
+      let counts=setInterval(updated);
+      let upto=0;
+      function updated(){
+          var count= document.getElementById("counter");
+          count.innerHTML=++upto;
+          if(upto===260)
+          {
+              clearInterval(counts);
+              count.innerHTML+="+";
+          }
+      }
+      let counts2=setInterval(updated2);
+      let upto2=0;
+      function updated2(){
+          var count2= document.getElementById("counter2");
+          count2.innerHTML=++upto2;
+          if(upto2===65)
+          {
+              clearInterval(counts2);
+              count2.innerHTML+="+";
+          }
+      }
+      let counts3=setInterval(updated3);
+      let upto3=0;
+      function updated3(){
+          var count3= document.getElementById("counter3");
+          count3.innerHTML=++upto3;
+          if(upto3===65)
+          {
+              clearInterval(counts3);
+              count3.innerHTML+="+";
+          }
+      }
+  </script>
     <script src="./main.js"></script>
   </body>
 </html>
