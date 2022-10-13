@@ -15,7 +15,7 @@
 <a href="https://github.com/Hack-Club-TechBrewers/Hack-Club-TechBrewers.github.io"><img src="https://badges.frapsoft.com/os/v2/open-source.svg" alt="Open Source"/></a>
 </div>
 
-<h2 align="center"> Our Valuable Contributors✨ </h2>
+<h2 align="center"> Our Valuable Contributors!✨ </h2>
 <p align="center">
 
 <a href="https://github.com/Hack-Club-TechBrewers/Hack-Club-TechBrewers.github.io/graphs/contributors">
