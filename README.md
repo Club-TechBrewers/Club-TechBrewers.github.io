@@ -1,5 +1,6 @@
-# Hack-Club-TechBrewers.github.io
-This is the Hack Club TechBrewers website Github repository.
+# Hack Club TechBrewers
+
+<img src=""/>
 
 <h2 align=center> Our Valuable Contributors✨ </h2>
 <p align="center">
