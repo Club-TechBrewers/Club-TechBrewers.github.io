@@ -47,3 +47,7 @@
     }
 }
 
+.mail-css:hover{
+    text-decoration: underline;
+  }
+

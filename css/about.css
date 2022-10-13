@@ -13,6 +13,10 @@
 
 }
 
+.mail-css:hover{
+  text-decoration: underline;
+}
+
 .about__achievements-container h1 {
     padding-bottom: 2rem;
     font-size: 2.5rem;
