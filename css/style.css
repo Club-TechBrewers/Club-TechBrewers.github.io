@@ -387,6 +387,10 @@ footer {
   font-size: 0.9rem;
 }
 
+.mail-css:hover{
+  text-decoration: underline;
+}
+
 .footer__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

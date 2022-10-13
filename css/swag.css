@@ -41,3 +41,7 @@ h4{
     }
     
 }
+
+.mail-css:hover{
+    text-decoration: underline;
+  }
