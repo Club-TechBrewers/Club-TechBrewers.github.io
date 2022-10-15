@@ -93,7 +93,7 @@
 }
 
 .team__member:hover {
-  background: #ffce91; 
+  background: var(--team-hover);
   box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
   border-color: var(--color-primary);
 }

@@ -35,6 +35,7 @@
   --color-bg-1: #FFD8A9;
   --color-bg-2: #F1A661;
   --cat-hover: #ffdcb2;
+  --team-hover: #ffce91;
 
   /* --color-primary: #ff7400;
   --color-success: #33d6a6;
@@ -62,6 +63,7 @@
   --color-bg-2: #894200;
   --color-white: rgb(204, 204, 204);
   --cat-hover: #462301;
+  --team-hover: #462301;
 }
 
 body {
