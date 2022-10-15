@@ -57,13 +57,13 @@
 }
 
 .dark-theme{
-  --color-bg:  #492503;
-  --color-bg-1: #371b01;
-  --color-primary: #371b01;
-  --color-bg-2: #894200;
+  --color-bg:  #291502;
+  --color-bg-1: #1e0e01;
+  --color-primary: #1e0e01;
+  --color-bg-2: #291502;
   --color-white: rgb(204, 204, 204);
-  --cat-hover: #462301;
-  --team-hover: #462301;
+  --cat-hover: #4e2801;
+  --team-hover: #4e2801;
 }
 
 body {

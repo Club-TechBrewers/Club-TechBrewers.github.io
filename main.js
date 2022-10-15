@@ -47,15 +47,22 @@ closeBtn.addEventListener('click', closeNav)
 //night theme
 
 var icon = document.getElementById("icon");
+var mainlogo = document.getElementById("mainlogo");
 
 icon.onclick = function () {
     document.body.classList.toggle("dark-theme");
 
     if (document.body.classList.contains("dark-theme")) {
         icon.src="images/day-mode.png";
+        mainlogo.src="images/Logos/TechBrewersLogo.png";
+        mainlogo.style.width="13.5rem";
     }
 
-    else
+    else {
         icon.src="images/night-mode.png";
+        mainlogo.src="images/Logos/TechBrewersLogo_black.png";
+        mainlogo.style.width="15rem";
+    }
+
 
 }
