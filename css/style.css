@@ -34,6 +34,8 @@
   --color-bg: #FDEEDC;
   --color-bg-1: #FFD8A9;
   --color-bg-2: #F1A661;
+  --cat-hover: #ffdcb2;
+  --team-hover: #ffce91;
 
   /* --color-primary: #ff7400;
   --color-success: #33d6a6;
@@ -54,11 +56,30 @@
   --transition: all 400ms ease;
 }
 
+.dark-theme{
+  --color-bg:  #492503;
+  --color-bg-1: #371b01;
+  --color-primary: #371b01;
+  --color-bg-2: #894200;
+  --color-white: rgb(204, 204, 204);
+  --cat-hover: #462301;
+  --team-hover: #462301;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
   color: var(--color-white);
   background: var(--color-bg);
+}
+
+#icon {
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-left: 50px;
+  /* border-radius: 45px; */
+  /* border: 5px solid rgb(58, 23, 153); */
 }
 
 .container {
@@ -148,7 +169,9 @@ nav {
   background: var(--color-primary);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
-
+.nav_icon{
+  display: flex;
+}
 .nav__container {
   height: 100%;
   display: flex;
@@ -270,7 +293,7 @@ header {
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
   z-index: 1;
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
-  background: #ffdcb2;
+  background: var(--cat-hover);
 }
 
 .category__icon {
