@@ -45,7 +45,8 @@
    /* background: var(--color-bg-2); */
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
   /* box-shadow: 0 3rem 3rem rgba(255,169,139, 0.3);  */
-  background: #ffdcb2; 
+  /* background: var(--color-dark);  */
+  background: var(--team-hover); 
 }
 
 .achievement__icon {
