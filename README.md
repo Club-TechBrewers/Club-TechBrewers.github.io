@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://techbrewers.hackclub.com/" target="__blank">Hack Club TechBrewers Website 🚀</h1>
+<h1 align="center"><a href="https://techbrewers.hackclub.com/" target="_blank">Hack Club TechBrewers Website 🚀</h1>
 <h4 align="center"> Hack Club TechBrewers was founded with an aim of building an all inclusive community which empowers every individual to learn, connect and build together. We are a community where people from different colleges, branches, domains, etc. come together and learn tech together in a fun way! </h4>
 
 <img src="https://github.com/Hack-Club-TechBrewers/Hack-Club-TechBrewers.github.io/blob/main/Screenshot%202022-10-13%20at%202.38.17%20PM.png"/>
