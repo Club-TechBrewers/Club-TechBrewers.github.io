@@ -73,7 +73,7 @@
           tech together in a fun way!
         </p>
         <a href="https://chat.whatsapp.com/IhCGAqGBE4k0usx9h0QrY7"
-          class="btn btn-primary" target="_blank">Join now 🚀</a>
+          class="btn btn-primary" target="_blank">Join now</a>
       </div>
 
       <div class="header__right">
@@ -87,7 +87,7 @@
   <!-- ============ END OF HEADER =============== -->
 
   <section class="categories">
-    <div class="container categories__container">
+    <div class="container categories__container reveal">
       <div class="categories__left">
         <h1>Our Aim</h1>
         <p>
@@ -218,7 +218,7 @@
   <!-- ============ END OF FAQs =============== -->
 
   <section class="about__achievements">
-    <div class="container about__achievements-container">
+    <div class="container about__achievements-container reveal">
       <div class="about__achievements-left">
         <img src="./images/about achievements.svg" alt="" />
       </div>
@@ -261,7 +261,7 @@
 
   <section class="container testimonials__container mySwiper">
     <h2>Testimonials</h2>
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper reveal">
       <article class="testimonial swiper-slide">
         <div class="avatar">
           <img src="./images/Testimonials/Anmol Reshi.png" alt="" />
@@ -523,6 +523,27 @@
         },
       },
     });
+  </script>
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i<reveals.length; i++){
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint) {
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
   </script>
 </body>
 
