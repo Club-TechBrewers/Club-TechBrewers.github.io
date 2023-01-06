@@ -26,17 +26,29 @@
   /* #FF9855 */
   /* #FF8E00  */
 
-  --color-primary: #ffd8a9;
+  /* --color-primary: #ffd8a9; */
+  --color-primary: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);
+  --color-primary: #5757cd;
+  /* --color-success: #33d6a6; */
   --color-success: #33d6a6;
+  /* --color-warning: #f1c40f; */
   --color-warning: #f1c40f;
+  /* --color-danger: #ec3750; */
   --color-danger: #ec3750;
+  /* --color-danger-variant: rgba(247, 88, 66, 0.4); */
   --color-danger-variant: rgba(247, 88, 66, 0.4);
-  --color-white: #000;
+  /* --color-white: #000; */
+  --color-white: #FFFFFF;
+  /* --color-light: rgba(255, 255, 255, 0.7); */
   --color-light: rgba(255, 255, 255, 0.7);
-  --color-black: #000;
-  --color-bg: #FDEEDC;
-  --color-bg-1: #FFD8A9;
-  --color-bg-2: #F1A661;
+  /* --color-black: #000; */
+  --color-black: #FFFFFF;
+  /* --color-bg: #FDEEDC; */
+  --color-bg: #121212;
+  /* --color-bg-1: #FFD8A9; */
+  --color-bg-1: #121212;
+  /* --color-bg-2: #F1A661; */
+  --color-bg-2: #121212;
   --cat-hover: #ffdcb2;
   --team-hover: #ffce91;
 
@@ -141,7 +153,8 @@ p {
 .btn {
   display: inline-block;
   background: var(--color-white);
-  background: linear-gradient(to right, brown 0%, #e1954e 51%, #fcbe85 100%);
+  /* background: linear-gradient(to right, brown 0%, #e1954e 51%, #fcbe85 100%); */
+  background: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);
   color: #fff;
   transition: 0.5s;
   padding: 1rem 2rem;
