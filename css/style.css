@@ -164,7 +164,7 @@ p {
 }
 
 .btn:hover {
-  background: linear-gradient(to left, brown 0%, #e1954e 0%, #fcbe85 100%);
+  /* background: linear-gradient(to left, brown 0%, #e1954e 0%, #fcbe85 100%); */
   border-color: var(--color-dark);
   color: #000;
 }
@@ -182,7 +182,8 @@ nav {
 
 /* change navbar styles on scroll using js */
 .window-scroll {
-  background: var(--color-primary);
+  /* background: var(--color-primary); */
+  background: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 .nav_icon{
@@ -248,7 +249,7 @@ header {
     #ff7b72 84.96%
   ); */
 
-  background: linear-gradient(to right, brown 0%, #e1954e 51%, #fcbe85 100%);
+  background: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
