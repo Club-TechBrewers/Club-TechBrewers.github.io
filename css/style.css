@@ -197,7 +197,8 @@ nav {
 }
 
 .nav__container img {
-  width: 15rem;
+  /* width: 15rem; */
+  width: 8rem;
 }
 
 nav button {
