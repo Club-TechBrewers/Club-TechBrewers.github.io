@@ -49,8 +49,10 @@
   --color-bg-1: #121212;
   /* --color-bg-2: #F1A661; */
   --color-bg-2: #121212;
-  --cat-hover: #ffdcb2;
-  --team-hover: #ffce91;
+  /* --cat-hover: #ffdcb2; */
+  --cat-hover: #5757cd;
+  /* --team-hover: #ffce91; */
+  --team-hover: #5757cd;
 
   /* --color-primary: #ff7400;
   --color-success: #33d6a6;
@@ -133,7 +135,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 a {
