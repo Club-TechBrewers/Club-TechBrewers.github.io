@@ -327,49 +327,7 @@ header {
 
 .category p {
   font-size: 1rem;
-
 }
-
-/* =========================== FAQs ==================== */
-/* 
-.faqs {
-  background: var(--color-bg1);
-  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
-}
-
-.faqs__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.faq {
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 1.4rem;
-  height: fit-content;
-  background: var(--color-primary);
-}
-
-.faq h4 {
-  font-size: 1rem;
-  line-height: 2.2;
-}
-
-.faq__icon {
-  align-items: flex-start;
-  font-size: 1.2rem;
-}
-
-.faq p {
-  margin-top: 0.8rem;
-  display: none;
-}
-
-.faq.open p {
-  display: block;
-} */
 
 /* =====================ACHIEVEMENTS=================== */
 
@@ -782,7 +740,16 @@ footer li a:hover {
   .category p {
     text-align: center;
   }
+  
+  /* ============achievements=========== */
 
+  .about__achivements,
+  .about__achievements-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
   /* ============testimonials=========== */
   /* .testimonial__body { */
     /* padding: 1.2rem; */
