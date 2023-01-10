@@ -73,7 +73,7 @@
   --transition: all 400ms ease;
 }
 
-.dark-theme{
+/* .dark-theme{
   --color-bg:  #291502;
   --color-bg-1: #1e0e01;
   --color-primary: #1e0e01;
@@ -81,7 +81,7 @@
   --color-white: #fdeedc;
   --cat-hover: #4e2801;
   --team-hover: #4e2801;
-}
+} */
 
 body {
   /* font-family: "Montserrat", sans-serif; */
