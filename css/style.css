@@ -502,8 +502,20 @@ footer li a:hover {
 
 .footer__socials .uil:hover {
   border-radius: 5px;
-  background: #000;
   color: var(--color-bg-1);
+}
+
+.footer__socials .uil-youtube:hover{
+  color: red;
+}
+.footer__socials .uil-twitter:hover{
+  color: #1DA1F2;
+}
+.footer__socials .uil-linkedin:hover{
+  color: #0A66C2;
+}
+.footer__socials .uil-instagram:hover{
+  color: #E1306C;
 }
 
 .footer__copyright {
