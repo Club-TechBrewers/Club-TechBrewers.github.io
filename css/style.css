@@ -230,7 +230,7 @@ nav button {
 
 header {
   position: relative;
-  top: 5rem;
+  top: 10rem;
   overflow: hidden;
   height: 90vh;
   margin-bottom: 5rem;
@@ -243,14 +243,16 @@ header {
   gap: 5rem;
   height: 100%;
 }
+/* 
+.header__left{
+  text-align: center;
+} */
 
-.header__left h1 {
-  /* background: linear-gradient(
-    140deg,
-    #d2a8ff 12.09%,
-    #f778ba 42.58%,
-    #ff7b72 84.96%
-  ); */
+.header__left h1{
+  color: white;
+}
+
+.header__left .gradient{
 
   background: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);
   -webkit-background-clip: text;
