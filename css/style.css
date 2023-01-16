@@ -230,7 +230,7 @@ nav button {
 
 header {
   position: relative;
-  top: 10rem;
+  top: 5rem;
   overflow: hidden;
   height: 90vh;
   margin-bottom: 5rem;
@@ -242,7 +242,11 @@ header {
   align-items: center;
   gap: 5rem;
   height: 100%;
+  /* grid-template-columns: 1fr;
+  text-align: center;
+  margin-top: 1.5rem; */
 }
+
 /* 
 .header__left{
   text-align: center;
@@ -267,11 +271,13 @@ header {
 .categories {
   background: var(--color-bg-1);
   height: 50rem;
+  text-align: center;
 }
 
 .categories h1 {
   line-height: 1;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .categories__container {
@@ -333,7 +339,7 @@ header {
 
 /* =====================ACHIEVEMENTS=================== */
 
-.about__achivements {
+.community__achivements {
   margin-top: 3rem;
 }
 
@@ -352,14 +358,16 @@ header {
   text-decoration: underline;
 }
 
-.about__achievements-container h1 {
+.community__achievements-container h3 {
     padding-bottom: 2rem;
     font-size: 2.5rem;
+    text-align: center;
   }
 
 .about__achievements-container p {
     padding-bottom: 3rem;
     font-size: 1.2rem;
+    /* text-align: center; */
   }
 
 .achievements__cards {
