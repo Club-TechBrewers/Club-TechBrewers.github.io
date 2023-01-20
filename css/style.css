@@ -123,7 +123,8 @@ h5 {
 
 h1 {
   /* font-size: 2.4rem; */
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: 3.7rem;
 }
 
 h2 {
@@ -149,7 +150,8 @@ img {
 }
 
 p {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-size: 1.5rem;
 }
 
 .btn {
@@ -278,6 +280,7 @@ header {
 
 .categories {
   background: var(--color-bg-1);
+  /* background: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);; */
   height: 50rem;
   text-align: center;
 }
@@ -323,13 +326,16 @@ header {
   padding: 2rem;
   border-radius: 2rem;
   transition: var(--transition);
+  margin: 1.5rem;
 }
 
 .category:hover {
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
   z-index: 1;
   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
-  background: var(--cat-hover);
+  /* background: var(--cat-hover); */
+transition: var(--transition);
+  background: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);
 }
 
 .category__icon {
@@ -382,11 +388,13 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  padding-top: 5rem;
 }
 
 .achievement__card {
   background: var(--color-bg-1);
   padding: 1.6rem;
+  /* margin: 3rem; */
   border-radius: 1rem;
   text-align: center;
   transition: var(--transition);
@@ -398,6 +406,7 @@ header {
   /* box-shadow: 0 3rem 3rem rgba(255,169,139, 0.3);  */
   /* background: var(--color-dark);  */
   background: var(--team-hover); 
+  background: linear-gradient(to right, #5757cd 0%, #8654c8 20%, #c851bf 40%, #e0869d 60%, #f2af83 100%);;
 }
 
 .achievement__icon {
@@ -422,7 +431,7 @@ header {
 }
 /* =========================== TESTIMONIALS ==================== */
 
-.testimonials__container {
+/* .testimonials__container {
   overflow-x: hidden;
   position: relative;
   margin-bottom: 5rem;
@@ -468,7 +477,7 @@ header {
   left: 50%;
   top: -1.5rem;
   transform: rotate(45deg);
-}
+} */
 
 /* =========================== TEAM ==================== */
 
@@ -486,6 +495,8 @@ header {
 .team__member {
   background: var(--color-bg-2);
   padding: 2rem;
+  /* margin: 3rem; */
+  /* padding: 5rem; */
   border: 1px solid transparent;
   transition: var(--transition);
   position: relative;
@@ -540,6 +551,47 @@ header {
 .team__member-socials a {
   padding: 1rem;
 }
+
+/* =========================== SPONSORS ==================== */
+
+/* .sponsor {
+  background: var(--color-bg-1);
+  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.sponsor__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+} */
+
+/* .sponsor__member { */
+  /* background: var(--color-bg-2); */
+  /* background: #5757cd; */
+  /* padding: 2rem; */
+  /* margin: 3rem;
+  padding: 1rem; */
+  /* border: 1px solid transparent; */
+  /* transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5%;
+} */
+
+/* .sponsor__member:hover { */
+  /* background: var(--team-hover); */
+  /* box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3); */
+  /* border-color: var(--color-primary); */
+  /* box-shadow: 0 0 100px #5757cd;
+} */
+
+/* .sponsor__member-image img { */
+  /* -webkit-filter: sepia(100%); */
+	/* filter: sepia(30%);
+	/* -webkit-transition: .3s ease-in-out; */
+	/* transition: .3s ease-in-out;
+} */
+
 
 /* =========================== FOOTER ==================== */
 
@@ -748,6 +800,12 @@ footer li a:hover {
     .achievements__cards {
       grid-template-columns: 1fr;
       gap: 0.7rem;
+      padding-top: 1rem;
+    }
+
+    .community__achievements-right h3{
+      font-size: 2rem;
+      padding: 1.5rem;
     }
 
     .about__achievements-left{
@@ -853,6 +911,18 @@ footer li a:hover {
   .category p {
     text-align: center;
   }
+
+  .team__member{
+    margin: 3rem;
+  }
+
+  .achievement__card{
+    margin: 3rem;
+  }
+
+  .category{
+    margin: 3rem;
+  }
   
   /* ============achievements=========== */
 
@@ -905,9 +975,6 @@ footer li a:hover {
       margin-bottom: 1.5rem;
       font-size: 1rem;
     }
-  
-  
-  
 
   /* ============footer=========== */
   .footer__container {
