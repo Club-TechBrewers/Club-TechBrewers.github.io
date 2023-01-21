@@ -1004,3 +1004,46 @@ footer li a:hover {
   transform: translateY(0px);
   opacity: 1;
   }
+
+
+
+  .events{
+    margin-top: 3rem;
+  }
+  
+  .events__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .event{
+    background: var(--color-bg-1);
+    text-align: left;
+    /* border: 1px solid transparent; */
+    transition: var(--transition);
+    border-radius: 15px;
+  }
+  
+  .event:hover{
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  background: var(--cat-hover);
+  }
+  
+  .event__info{
+    padding: 1rem;
+  }
+  
+  .event__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0rem;
+  }
+  
+  .event {
+    background-color: transparent;
+    height: 270px;
+  }
+  
+  .event img{
+    object-fit:contain;
+  }
