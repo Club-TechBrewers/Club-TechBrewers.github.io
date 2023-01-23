@@ -461,7 +461,34 @@ header {
   margin-top: 3rem;
 }
 
-.event img {
+/* .event img {
+  width: 10rem;
+} */
+
+.events__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.event {
+  background: var(--color-bg-1);
+  text-align: left;
+  /* border: 1px solid transparent; */
+  transition: var(--transition);
+  border-radius: 15px;
+}
+
+.event {
+  background-color: transparent;
+  height: 250px;
+}
+
+.events {
+  margin-top: 3rem;
+}
+
+.sponsor img {
   width: 10rem;
 }
 
