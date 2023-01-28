@@ -364,7 +364,8 @@ header {
 }
 
 .achievement__icon {
-  background: var(--color-danger);
+  /* background: var(--color-danger); */
+  background: #5757cd;
   padding: 0.6rem;
   border-radius: 1rem;
   display: inline-block;
@@ -373,11 +374,13 @@ header {
 }
 
 .achievement__card:nth-child(2) .achievement__icon {
-  background: var(--color-success);
+  /* background: var(--color-success); */
+  background: #5757cd;
 }
 
 .achievement__card:nth-child(3) .achievement__icon {
-  background: var(--color-warning);
+  /* background: var(--color-warning); */
+  background: #5757cd;
 }
 
 .achievement__card p {
