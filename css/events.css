@@ -17,12 +17,14 @@
 }
 
 .event:hover{
-  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
-  background: var(--cat-hover);
+  /* box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  background: var(--cat-hover); */
+  background-color: #121212;
 }
 
 .event__info{
     padding: 1rem;
+    text-align: center;
 }
 
 .event__info p{
@@ -31,7 +33,8 @@
 }
 
 .event {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #5757cd;
     height: 270px;
 }
 

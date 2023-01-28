@@ -155,7 +155,7 @@ nav {
     #e0869d 60%,
     #f2af83 100%
   );
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); */
 }
 .nav_icon {
   display: flex;
@@ -278,9 +278,9 @@ header {
 }
 
 .category:hover {
-  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3); */
   z-index: 1;
-  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3); */
   transition: var(--transition);
   background: linear-gradient(
     to right,
@@ -351,7 +351,7 @@ header {
 }
 
 .achievement__card:hover {
-  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3); */
   background: var(--team-hover);
   background: linear-gradient(
     to right,
@@ -412,7 +412,7 @@ header {
 
 .team__member:hover {
   background: var(--team-hover);
-  box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3); */
   border-color: var(--color-primary);
 }
 
