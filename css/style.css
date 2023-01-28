@@ -10,8 +10,8 @@
 }
 
 ::selection {
-  color: var(--color-bg-1);
-  background: var(--color-black);
+  color: #ffffff;
+  background: #5757cd;
 }
 
 :root {
