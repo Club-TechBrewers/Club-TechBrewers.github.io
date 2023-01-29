@@ -82,6 +82,12 @@
         padding: 0 3rem;
         /* padding: 0 3.5rem; */
     }
+
+    .event {
+        /* background-color: transparent; */
+        background-color: #5757cd;
+        height: 225px;
+      }
 }
 
 .mail-css:hover{

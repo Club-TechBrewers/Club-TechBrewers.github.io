@@ -232,4 +232,10 @@ background-color: #121212;
     margin-bottom: 1.5rem;
     font-size: 1rem;
   }
+
+  .event {
+    /* background-color: transparent; */
+    background-color: #5757cd;
+    height: 200px;
+  }
 }
