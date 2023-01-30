@@ -536,6 +536,10 @@ footer {
   margin-bottom: 1.2rem;
 }
 
+footer p {
+  font-size: 1.2rem;
+}
+
 .footer_1 p {
   margin: 0 0 2rem;
 }
