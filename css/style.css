@@ -492,7 +492,7 @@ header {
 }
 
 .sponsor img {
-  width: 10rem;
+  width: 10rem
 }
 
 .events__container {
@@ -930,3 +930,9 @@ footer li a:hover {
   opacity: 1;
 }
 
+.events__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
