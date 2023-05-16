@@ -3,7 +3,7 @@
 
 <h3 align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUl-mlbPI_Nsz-EiuNZI4nMuqT9b4aGnr1sxZXqa4unj-mEQ/viewform">Be a TechBrewers Community member 🚀</a></h3>
 
-<h3 align="center">Contribute to the Open Source Website of Club TechBrewers 🤩 Excited?</h3>
+<h3 align="center">Contribute to the Open Source Website of Club TechBrewers 🤩 </h3>
 
 <!--<h4>Check out <a href="https://github.com/Club-TechBrewers/Club-TechBrewers.github.io/blob/main/Contributing.md">Contributing.md</a> where we will walk you through the steps on how you can contribute to the project</h4>-->
 
