@@ -1,0 +1,33 @@
+.testimonials{
+    margin-top: 3rem;
+}
+
+.testimonial__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1024px){
+    .events__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .events__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 0 3rem;
+        
+    }
+
+    .event {
+        
+        background-color: #5757cd;
+        height: 225px;
+      }
+}
