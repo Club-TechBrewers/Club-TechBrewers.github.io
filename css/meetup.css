@@ -135,6 +135,13 @@ p {
   color: #000;
 }
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* =========================== NAVBAR ==================== */
 nav {
   background: transparent;
@@ -402,7 +409,7 @@ header {
 
 .team__member {
   background: var(--color-bg-2);
-  padding: 2rem;
+  padding: 1rem;
   border: 1px solid transparent;
   transition: var(--transition);
   position: relative;
@@ -430,14 +437,15 @@ header {
 
 .team__member-info * {
   text-align: center;
-  margin-top: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .team__member-info p {
   color: var(--color-dark);
 }
 
-.team__member-socials {
+/* .team__member-socials {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -452,11 +460,11 @@ header {
 
 .team__member:hover .team__member-socials {
   right: 0;
-}
+} */
 
-.team__member-socials a {
+/* .team__member-socials a {
   padding: 1rem;
-}
+} */
 
 /* =========================== SPONSORS ==================== */
 
@@ -902,6 +910,11 @@ footer li a:hover {
     .team__member p {
       margin-bottom: 1.5rem;
       font-size: 1rem;
+    }
+
+    .events .iframe-luma{
+      width: 800px;
+      height: 480px;
     }
 
     /* ============footer=========== */
