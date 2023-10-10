@@ -105,7 +105,8 @@ background-color: #121212;
 
 .event {
   /* background-color: transparent; */
-  background-color: #5757cd;
+  /* background-color: #5757cd; */
+  background-color: #FF5733;
   height: 270px;
 }
 
@@ -235,7 +236,8 @@ background-color: #121212;
 
   .event {
     /* background-color: transparent; */
-    background-color: #5757cd;
+    /* background-color: #5757cd; */
+    background-color: #FF5733;
     height: 225px;
   }
 }

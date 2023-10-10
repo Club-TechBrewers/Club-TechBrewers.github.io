@@ -25,7 +25,8 @@
     }
 
     .testimonials {
-        background-color: #5757cd;
+        /* background-color: #5757cd; */
+        background-color: #FF5733;
         height: 225px;    
     }
 }
