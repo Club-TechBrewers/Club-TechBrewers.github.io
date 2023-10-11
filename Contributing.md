@@ -84,3 +84,45 @@ In order to push the changes to GitHub, we need to identify the remote’s name.
 $ git remote
 ```
 ### After identifying the remote’s name we can safely push those changes to GitHub.
+
+
+# Issues and Pull Requests
+
+### Creating an Issue
+
+Before **creating** an Issue for `features`/`bugs`/`improvements` please follow these steps:
+
+1. Search existing Issues before creating a new issue (has someone raised similar issue already)
+1. If it doesn't exist create a new issue by giving as much context as possible
+1. Please specify the correct Issue type in issue title, if the issue is a feature/improvement mention `[Feature] <Issue_title>`, if it is a bug mention `[Bug] <Issue_title>` (for example `[Feature] Update readme.md file with steps to clone the project`)
+<br>
+
+### Working on an Issue (get it assigned to you)
+
+Before working on an existing Issue please follow these steps:
+
+1. Only ask to be assigned 1 issue at a time
+1. Comment asking for the issue to be assigned to you (do not tag maintainers on GitHub as all maintainers receive your comment notifications)
+1. **Only** start working on this Issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used
+1. Reference the Issue in your Pull Request (for example `closes #123` or `fixes #123`)
+<br>
+
+## Reviewing Pull Requests
+
+We welcome everyone to review Pull Requests, it is a great way to learn, network and support each other.
+
+### DOs
+
+- Be kind and respectful, we use inclusive, gender neutral language (for example `they/them` instead of `guy/man`)
+- Use inline comments to explain your suggestions
+- Use inline suggestions to propose changes
+
+### DON'Ts
+
+- Do not be rude, disrespectful or aggressive
+- Do not repeat feedback, this creates more noise than value (check the existing conversation), use GitHub reactions if you agree/disagree with a comment
+- Do not blindly approve pull requests to improve your GitHub contributors graph
+
+---
+
+> Note: Persistent non-compliance with this Contributing Guide can lead to a warning and/or ban under the [Code of Conduct](https://github.com/Club-TechBrewers/Club-TechBrewers.github.io/blob/main/CODE_OF_CONDUCT.md)
