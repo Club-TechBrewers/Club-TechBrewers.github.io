@@ -141,6 +141,49 @@ p {
   color: #000;
 }
 
+/* Event Popup */
+
+#myDialog{
+  max-width: 450px;
+  min-width: 350px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 25px;
+  animation: fadein 0.5s;
+}
+
+#myDialog::backdrop{
+  background-color: black;
+  opacity: 0.5;
+}
+
+#myDialog a{
+  padding: 10px 30px;
+  background: #FF5733;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  display: block;
+}
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+    top: 47%;
+  }
+
+  100%{
+    opacity: 1;
+    top: 50%;
+  }
+}
+
 /* =========================== NAVBAR ==================== */
 nav {
   background: transparent;

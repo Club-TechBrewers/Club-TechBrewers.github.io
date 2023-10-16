@@ -66,6 +66,12 @@
         <a href="https://chat.whatsapp.com/CCRMIryCSQW6Y61LrYn2sZ" class="btn btn-primary" target="_blank">Join now</a>
       </div>
 
+    <!-- Event Popup -->
+    <dialog id="myDialog">
+      New Event is happening! <br>For more info visit the Events Page
+      <a href="./events.html" target="_blank" id="popupBtn">Events</a>
+    </dialog>
+
       <div class="header__right">
         <div class="header__right-image">
           <svg class="animated" id="freepik_stories-team-spirit" xmlns="http://www.w3.org/2000/svg"
@@ -3946,6 +3952,24 @@
         }
       }
     }
+
+    const popupBtn = document.getElementById("popupBtn");
+
+    popupBtn.addEventListener('click', () => {
+      document.getElementById("myDialog").close();
+      clearInterval(x);
+    })
+  
+    let x = setInterval(() => {
+        document.getElementById("myDialog").showModal();
+
+        setInterval(() => {
+          document.getElementById("myDialog").close();
+        }, 5000);
+      
+        clearInterval(x);
+      }, 2000);
+
   </script>
 </body>
 
