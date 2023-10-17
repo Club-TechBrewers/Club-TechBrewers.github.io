@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://techbrewers.hackclub.com/">Club TechBrewers Website 🚀</h1>
+<h1 align="center"><a href="https://techbrewers.org/">Club TechBrewers Website 🚀</h1>
 <h4 align="center"> Club TechBrewers was founded with an aim of building an all inclusive community which empowers every individual to learn, connect and build together. We are a community where people from different colleges, branches, domains, etc. come together and learn tech together in a fun way! </h4>
 
 <h3 align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUl-mlbPI_Nsz-EiuNZI4nMuqT9b4aGnr1sxZXqa4unj-mEQ/viewform">Be a TechBrewers Community member 🚀</a></h3>
