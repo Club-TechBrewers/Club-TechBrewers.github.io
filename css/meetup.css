@@ -6,14 +6,14 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  /* font-family: "Poppins"; */
-  font-family: "Griffy";
+  font-family: "Poppins";
+  /* font-family: "Griffy"; */
 }
 
 ::selection {
   color: #ffffff;
-  /* background: #5757cd; */
-  background: #FF5733;
+  background: #5757cd;
+  /* background: #FF5733; */
 }
 
 :root {
@@ -26,8 +26,8 @@
     #e0869d 60%,
     #f2af83 100%
   );
-  /* --color-primary: #5757cd; */
-  --color-primary: #FF5733;
+  --color-primary: #5757cd;
+  /* --color-primary: #FF5733; */
   --color-success: #33d6a6;
   --color-warning: #f1c40f;
   --color-danger: #ec3750;
@@ -38,10 +38,10 @@
   --color-bg: #121212;
   --color-bg-1: #121212;
   --color-bg-2: #121212;
-  /* --cat-hover: #5757cd;
-  --team-hover: #5757cd; */
-  --cat-hover: #FF5733;
-  --team-hover: #FF5733;
+  --cat-hover: #5757cd;
+  --team-hover: #5757cd;
+  /* --cat-hover: #FF5733;
+  --team-hover: #FF5733; */
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -200,8 +200,8 @@ nav button {
 
 .nav__menu a:hover {
   padding: 0.2rem 0.5rem;
-  /* color: #5757cd; */
-  color: #FF5733;
+  color: #5757cd;
+  /* color: #FF5733; */
 }
 
 /* =========================== HEADER ==================== */
@@ -378,8 +378,8 @@ header {
 
 .achievement__icon {
   /* background: var(--color-danger); */
-  /* background: #5757cd; */
-  background: #FF5733;
+  background: #5757cd;
+  /* background: #FF5733; */
   padding: 0.6rem;
   border-radius: 1rem;
   display: inline-block;
@@ -389,14 +389,14 @@ header {
 
 .achievement__card:nth-child(2) .achievement__icon {
   /* background: var(--color-success); */
-  /* background: #5757cd; */
-  background: #FF5733;
+  background: #5757cd;
+  /* background: #FF5733; */
 }
 
 .achievement__card:nth-child(3) .achievement__icon {
   /* background: var(--color-warning); */
-  /* background: #5757cd; */
-  background: #FF5733;
+  background: #5757cd;
+  /* background: #FF5733; */
 }
 
 .achievement__card p {
