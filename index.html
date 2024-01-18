@@ -3570,7 +3570,7 @@
               <i class="uil uil-users-alt"></i>
             </span>
             <h3 id="counter"></h3>
-            <p>Members</p>
+            <h4>Members</h4>
           </article>
 
           <article class="achievement__card reveal">
@@ -3578,7 +3578,7 @@
               <i class="uil uil-building"></i>
             </span>
             <h3 id="counter2"></h3>
-            <p>Colleges</p>
+            <h4>Colleges</h4>
           </article>
 
           <article class="achievement__card reveal">
@@ -3586,7 +3586,7 @@
               <i class="uil uil-map"></i>
             </span>
             <h3 id="counter3"></h3>
-            <p>Cities</p>
+            <h4>Cities</h4>
           </article>
 
         </div>
@@ -3813,10 +3813,19 @@
       <article class="sponsor">
         <div class="event-inner">
           <div class="event__image">
+            <img src="./images/Sponsors/bsidespune.png" alt="" />
+          </div>
+        </div>
+      </article>
+
+      <article class="sponsor">
+        <div class="event-inner">
+          <div class="event__image">
             <img src="./images/Sponsors/gfg.png" alt="" />
           </div>
         </div>
       </article>
+
 
     </div>
   </section>
@@ -3887,7 +3896,7 @@
     function updated() {
       var count = document.getElementById("counter");
       count.innerHTML = ++upto;
-      if (upto === 1800) {
+      if (upto === 1900) {
         clearInterval(counts);
         count.innerHTML += "+";
       }
